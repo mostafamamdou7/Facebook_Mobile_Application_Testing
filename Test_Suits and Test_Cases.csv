@@ -1,0 +1,1029 @@
+Sheet2/Type,Sheet2/TC ID,Sheet2/Name / Title,Sheet2/Preconditions,Sheet2/Steps to be executed,Sheet2/Test Data,Sheet2/Expected results,Sheet2/Status,Sheet2/Requirement Traceability,Sheet2/Bugs Traceability,Sheet2/Issue type
+GUI,Facebook_AddPost_GUI_001,Verify the Alignment of fields on the Add post screen,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Click ""login"" 
+3- Look at the fields and icons on the page",add post ( text - photo -video -location- tag -like-comment),The fields and icons should be alligned in a good way,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_002,Verify the Color of the error messages must be in red,App is Installed and Opened  login with account,"1- Open the Facebook mobile application 
+2- Enter an in valid number or any invalid data
+3- Press Login
+4- Look at the error message color",add post ( text - photo -video -location- tag -like-comment),The Color of the error messages must be in red,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_003,Verify text field values are displayed in masked format or not,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5- try to add text to post",add post ( text - photo -video -location- tag -like-comment),show field values in page,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_004,Verify Media ( Photo/Field) field values are displayed in page or not ,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5- try to add media to post",add post ( text - photo -video -location- tag -like-comment),media field show media or show error of media in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_005,Verify if user tag any people display in masked format or not,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5- try to add Tag on post",add post ( text - photo -video -location- tag -like-comment),tag field show tag ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_006,Verify Media ( Photo/Field) field values uploaded from camera,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5-click on icon camera
+6- try to add photo/video using camera",add post ( text - photo -video -location- tag -like-comment),media field show media or show error of media in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_007,Verify Media ( Photo/Field) field values uploaded from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5-click on browse icon
+6- try to add photo/video from phone",add post ( text - photo -video -location- tag -like-comment),media field show media or show error of media in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_008,Verify post shared public ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose public",add post ( text - photo -video -location- tag -like-comment),share field show post success or show error  in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_009,Verify post shared Friends Except,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Friends Except",add post ( text - photo -video -location- tag -like-comment),share field show post success or show error  in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_010,Verify post shared to Friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Friends ",add post ( text - photo -video -location- tag -like-comment),share field show post success or show error  in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_011,Verify post shared to Friends of Friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Friends of Friends",add post ( text - photo -video -location- tag -like-comment),share field show post success or show error  in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_012,Verify post shared to Only Me,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Only Me",add post ( text - photo -video -location- tag -like-comment),share field show post success or show error  in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_013,Verify Edit post with one (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Friends of Friends",add post ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_014,Verify Edit post with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Friends of Friends",add post ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_015,Verify Edit post with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Friends of Friends",add post ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_016,Verify Edit post with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Friends of Friends",add post ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_017,Verify Edit post with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add Post Icon
+5-click on post audience
+6-choose Friends of Friends",add post ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_018,Verify view post with multiple comments,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on comments
+",add post ( text - photo -video -location- tag -like-comment),share field comments on page,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_019,Verify Edit posts comment  ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on comments
+6-click on spefic comment and edit",add post ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_020,Verify Delete posts comment  ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on comments
+6-click on spefic comment and Delete",add post ( text - photo -video -location- tag -like-comment),show post deleted,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_021,Verify the user is able to like friend's post ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on comments
+6-click on spefic comment and Delete",add post ( text - photo -video -location- tag -like-comment),show post page and like + 1,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_022,Verify the user is able to like his post ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on comments
+6-click on spefic comment and Delete",add post ( text - photo -video -location- tag -like-comment),show post page and like + 1,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_023,Verify the users is able to like my post and see count,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on like
+6-see count +1 ",add post ( text - photo -video -location- tag -like-comment),show post page and like + 1,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_024,Verify the users is able to hide my post,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on post
+6-click on spefic hide post",add post ( text - photo -video -location- tag -like-comment),SHOW Hide Success,success,FR 1 : Posts,None,Fac test
+GUI,Facebook_AddPost_GUI_025,Verify the users is able to see posts nearly for you,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on location
+6-see all posts nearly for me",add post ( text - photo -video -location- tag -like-comment),SHOW nearly people in another page,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_001,Verify the user is able to Add post with a valid text,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-add text",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_002,Verify the user is able to Add post with a valid image from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_003,Verify the user is able to Add post with a valid image size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_004,Verify the user is able to Add post with a valid image from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon broswer",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_005,Verify the user is able to Add post with a valid image size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon broswer",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_006,Verify the user is able to Add post with a valid Video from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_007,Verify the user is able to Add post with a valid Video size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_008,Verify the user is able to Add post with a valid Video from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon browse",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_009,Verify the user is able to Add post with a valid Video size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon browse",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_010,Verify the user is able to Add post with a valid Multiple Images from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_011,Verify the user is able to Add post with a valid Multiple videos from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_012,Verify the user is able to Add post with a valid Multiple Images from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon browse",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_013,Verify the user is able to Add post with a valid Multiple videos from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon browse",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_014,Verify the user is able to Add post with a valid location,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon location",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_015,Verify the user is able to Add post with a valid status,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon feeling",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_016,Verify the user is able to Add post with a valid share private,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon share select only me",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_017,Verify the user is able to Add post with a valid share friends of friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon share select friends of friends",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_018,Verify the user is able to Add post with a valid share friends ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon share select friends",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_019,Verify the user is able to Add post with a valid share friends of friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon share select friends of friends",add post ( text - photo -video -location- tag -like-comment),add post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_020,Verify the user is able to add to post with a valid comments,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click comment 
+6-add comment",add post ( text - photo -video -location- tag -like-comment),add comment post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_021,Verify the user is able to like friend's post ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click like",add post ( text - photo -video -location- tag -like-comment),add like post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_022,Verify the user is able to like his post ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click like",add post ( text - photo -video -location- tag -like-comment),add like post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_022,Verify the users is able to like my post ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click like",add post ( text - photo -video -location- tag -like-comment),add like post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_023,Verify the I am  able to save post as a draft,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on save draft options",add post ( text - photo -video -location- tag -like-comment),add  post to list draft success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_024,Verify the I am is able to trun off commeting,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on trun off comments",add post ( text - photo -video -location- tag -like-comment),trun off  successfully,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_025,Verify the I am is able to turn off sharing,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on trun off sharing",add post ( text - photo -video -location- tag -like-comment),trun off  successfully,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_026,Verify the users is able to share post on binded accounts,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on account blind and choice",add post ( text - photo -video -location- tag -like-comment),blind successfully,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_027,Verify the users is able to tag to friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on add Tag",add post ( text - photo -video -location- tag -like-comment),add tag post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_028,Verify the users is able to tag to unfriends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on add Tag choose friend not a privte account",add post ( text - photo -video -location- tag -like-comment),add tag post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_029,Verify the i am able to tag to myself,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on add Tag choose me",add post ( text - photo -video -location- tag -like-comment),add tag post success,success,FR 1 : Posts,None,Fac test
+Positive,Facebook_AddPost_Positive_030,Verify the users is able to see people is nearly from your post location,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on see nearly people",add post ( text - photo -video -location- tag -like-comment),see him in list ,success,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_001,Verify the user is able to Add post with a Not valid text,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-add text",add post ( text - photo -video -location- tag -like-comment),show error on field text,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_002,Verify the user is able to Add post with a Not valid image from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_003,Verify the user is able to Add post with a Not valid image size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_004,Verify the user is able to Add post with a Not valid image from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon broswer",add post ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_005,Verify the user is able to Add post with a Not valid image size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon broswer",add post ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_006,Verify the user is able to Add post with a Not valid Video from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_007,Verify the user is able to Add post with a Not valid Video size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_008,Verify the user is able to Add post with a Not valid Video from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon browse",add post ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_009,Verify the user is able to Add post with a Not valid Video size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon browse",add post ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_010,Verify the user is able to Add post with a Not valid Multiple Images from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_011,Verify the user is able to Add post with a Not valid Multiple videos from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon camera",add post ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_012,Verify the user is able to Add post with a Not valid Multiple Images from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon browse",add post ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_013,Verify the user is able to Add post with a Not valid Multiple videos from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon browse",add post ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_014,Verify the user is able to Add post with a Not valid location,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon location",add post ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_015,Verify the user is able to Add post with a Not valid status,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon feeling",add post ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_016,Verify the user is able to Add post with a Not valid share private,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon share select only me",add post ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_017,Verify the user is able to Add post with a Not valid share friends of friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon share select friends of friends",add post ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_018,Verify the user is able to Add post with a Not valid share friends ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon share select friends",add post ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_019,Verify the user is able to Add post with a Not valid share friends of friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on addpost
+6-click on icon share select friends of friends",add post ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_020,Verify the user is able to add to post with a Not valid comments,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click comment 
+6-add comment",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_021,Verify the user is able to like friend's post ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click like",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_022,Verify the user is able to like his post ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click like",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_022,Verify the users is able to like my post ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click like",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_023,Verify the users is not able to save post as a draft,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on save draft options",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_024,Verify the users is not able to trun off commeting,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on trun off comments",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_025,Verify the users is not able to turn off sharing,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view post
+5-click on trun off sharing",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_026,Verify the users is not able to share post on binded accounts,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on account blind and choice",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_027,Verify the users is not able to tag to friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on add Tag",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_028,Verify the users is not able to tag to unfriends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on add Tag choose friend not a privte account",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_029,Verify the i am not able to tag to myself,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on add Tag choose me",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+Negative,Facebook_AddPost_Negative_030,Verify the users is not able to see people is nearly from your post location,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add post
+5-click on see nearly people",add post ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Posts,None,Fac test
+GUI,Facebook_Addstory_GUI_001,Verify the Alignment of fields on the Add story screen,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Click ""login"" 
+3- Look at the fields and icons on the page",add story ( text - photo -video -location- tag -like-comment),The fields and icons should be alligned in a good way,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_002,Verify the Color of the error messages must be in red,App is Installed and Opened  login with account,"1- Open the Facebook mobile application 
+2- Enter an in valid number or any invalid data
+3- Press Login
+4- Look at the error message color",add story ( text - photo -video -location- tag -like-comment),The Color of the error messages must be in red,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_003,Verify text field values are displayed in masked format or not,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5- try to add text to story",add story ( text - photo -video -location- tag -like-comment),show field values in page,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_004,Verify Media ( Photo/Field) field values are displayed in page or not ,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5- try to add media to story",add story ( text - photo -video -location- tag -like-comment),media field show media or show error of media in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_005,Verify if user tag any people display in masked format or not,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5- try to add Tag on story",add story ( text - photo -video -location- tag -like-comment),tag field show tag ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_006,Verify Media ( Photo/Field) field values uploaded from camera,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5-click on icon camera
+6- try to add photo/video using camera",add story ( text - photo -video -location- tag -like-comment),media field show media or show error of media in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_007,Verify Media ( Photo/Field) field values uploaded from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5-click on browse icon
+6- try to add photo/video from phone",add story ( text - photo -video -location- tag -like-comment),media field show media or show error of media in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_008,Verify story shared public ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose public",add story ( text - photo -video -location- tag -like-comment),share field show story success or show error  in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_009,Verify story shared Friends Except,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Friends Except",add story ( text - photo -video -location- tag -like-comment),share field show story success or show error  in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_010,Verify story shared to Friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Friends ",add story ( text - photo -video -location- tag -like-comment),share field show story success or show error  in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_011,Verify story shared to Friends of Friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Friends of Friends",add story ( text - photo -video -location- tag -like-comment),share field show story success or show error  in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_012,Verify story shared to Only Me,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Only Me",add story ( text - photo -video -location- tag -like-comment),share field show story success or show error  in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_013,Verify Edit story with one (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Friends of Friends",add story ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_014,Verify Edit story with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Friends of Friends",add story ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_015,Verify Edit story with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Friends of Friends",add story ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_016,Verify Edit story with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Friends of Friends",add story ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_017,Verify Edit story with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add story Icon
+5-click on story audience
+6-choose Friends of Friends",add story ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_018,Verify view story with multiple comments,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on comments
+",add story ( text - photo -video -location- tag -like-comment),share field comments on page,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_019,Verify Edit Stories comment  ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on comments
+6-click on spefic comment and edit",add story ( text - photo -video -location- tag -like-comment),share field show edit on page or show error in red color ,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_020,Verify Delete Stories comment  ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on comments
+6-click on spefic comment and Delete",add story ( text - photo -video -location- tag -like-comment),show story deleted,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_021,Verify the user is able to like friend's story ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on comments
+6-click on spefic comment and Delete",add story ( text - photo -video -location- tag -like-comment),show story page and like + 1,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_022,Verify the user is able to like his story ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on comments
+6-click on spefic comment and Delete",add story ( text - photo -video -location- tag -like-comment),show story page and like + 1,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_023,Verify the users is able to like my story and see count,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on like
+6-see count +1 ",add story ( text - photo -video -location- tag -like-comment),show story page and like + 1,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_024,Verify the users is able to hide my story,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on story
+6-click on spefic hide story",add story ( text - photo -video -location- tag -like-comment),SHOW Hide Success,success,FR 1 : Stories,None,Fac test
+GUI,Facebook_Addstory_GUI_025,Verify the users is able to see Stories nearly for you,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on location
+6-see all Stories nearly for me",add story ( text - photo -video -location- tag -like-comment),SHOW nearly people in another page,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_001,Verify the user is able to Add story with a valid text,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-add text",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_002,Verify the user is able to Add story with a valid image from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_003,Verify the user is able to Add story with a valid image size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_004,Verify the user is able to Add story with a valid image from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon broswer",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_005,Verify the user is able to Add story with a valid image size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon broswer",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_006,Verify the user is able to Add story with a valid Video from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_007,Verify the user is able to Add story with a valid Video size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_008,Verify the user is able to Add story with a valid Video from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon browse",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_009,Verify the user is able to Add story with a valid Video size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon browse",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_010,Verify the user is able to Add story with a valid Multiple Images from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_011,Verify the user is able to Add story with a valid Multiple videos from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_012,Verify the user is able to Add story with a valid Multiple Images from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon browse",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_013,Verify the user is able to Add story with a valid Multiple videos from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon browse",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_014,Verify the user is able to Add story with a valid location,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon location",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_015,Verify the user is able to Add story with a valid status,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon feeling",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_016,Verify the user is able to Add story with a valid share private,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon share select only me",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_017,Verify the user is able to Add story with a valid share friends of friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon share select friends of friends",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_018,Verify the user is able to Add story with a valid share friends ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon share select friends",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_019,Verify the user is able to Add story with a valid share friends of friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon share select friends of friends",add story ( text - photo -video -location- tag -like-comment),add story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_020,Verify the user is able to add to story with a valid comments,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click comment 
+6-add comment",add story ( text - photo -video -location- tag -like-comment),add comment story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_021,Verify the user is able to like friend's story ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click like",add story ( text - photo -video -location- tag -like-comment),add like story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_022,Verify the user is able to like his story ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click like",add story ( text - photo -video -location- tag -like-comment),add like story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_022,Verify the users is able to like my story ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click like",add story ( text - photo -video -location- tag -like-comment),add like story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_023,Verify the I am  able to save story as a draft,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on save draft options",add story ( text - photo -video -location- tag -like-comment),add  story to list draft success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_024,Verify the I am is able to trun off commeting,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on trun off comments",add story ( text - photo -video -location- tag -like-comment),trun off  successfully,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_025,Verify the I am is able to turn off sharing,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on trun off sharing",add story ( text - photo -video -location- tag -like-comment),trun off  successfully,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_026,Verify the users is able to share story on binded accounts,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on account blind and choice",add story ( text - photo -video -location- tag -like-comment),blind successfully,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_027,Verify the users is able to tag to friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on add Tag",add story ( text - photo -video -location- tag -like-comment),add tag story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_028,Verify the users is able to tag to unfriends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on add Tag choose friend not a privte account",add story ( text - photo -video -location- tag -like-comment),add tag story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_029,Verify the i am able to tag to myself,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on add Tag choose me",add story ( text - photo -video -location- tag -like-comment),add tag story success,success,FR 1 : Stories,None,Fac test
+Positive,Facebook_Addstory_Positive_030,Verify the users is able to see people is nearly from your story location,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on see nearly people",add story ( text - photo -video -location- tag -like-comment),see him in list ,success,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_001,Verify the user is able to Add story with a Not valid text,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-add text",add story ( text - photo -video -location- tag -like-comment),show error on field text,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_002,Verify the user is able to Add story with a Not valid image from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_003,Verify the user is able to Add story with a Not valid image size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_004,Verify the user is able to Add story with a Not valid image from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon broswer",add story ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_005,Verify the user is able to Add story with a Not valid image size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon broswer",add story ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_006,Verify the user is able to Add story with a Not valid Video from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_007,Verify the user is able to Add story with a Not valid Video size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_008,Verify the user is able to Add story with a Not valid Video from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon browse",add story ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_009,Verify the user is able to Add story with a Not valid Video size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon browse",add story ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_010,Verify the user is able to Add story with a Not valid Multiple Images from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_011,Verify the user is able to Add story with a Not valid Multiple videos from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon camera",add story ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_012,Verify the user is able to Add story with a Not valid Multiple Images from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon browse",add story ( text - photo -video -location- tag -like-comment),show error on field image,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_013,Verify the user is able to Add story with a Not valid Multiple videos from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon browse",add story ( text - photo -video -location- tag -like-comment),show error on field video,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_014,Verify the user is able to Add story with a Not valid location,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon location",add story ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_015,Verify the user is able to Add story with a Not valid status,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon feeling",add story ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_016,Verify the user is able to Add story with a Not valid share private,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon share select only me",add story ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_017,Verify the user is able to Add story with a Not valid share friends of friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon share select friends of friends",add story ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_018,Verify the user is able to Add story with a Not valid share friends ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon share select friends",add story ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_019,Verify the user is able to Add story with a Not valid share friends of friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on addstory
+6-click on icon share select friends of friends",add story ( text - photo -video -location- tag -like-comment),show error (NOT Found) choose valid one,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_020,Verify the user is able to add to story with a Not valid comments,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click comment 
+6-add comment",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_021,Verify the user is able to like friend's story ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click like",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_022,Verify the user is able to like his story ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click like",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_022,Verify the users is able to like my story ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click like",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_023,Verify the users is not able to save story as a draft,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on save draft options",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_024,Verify the users is not able to trun off commeting,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on trun off comments",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_025,Verify the users is not able to turn off sharing,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view story
+5-click on trun off sharing",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_026,Verify the users is not able to share story on binded accounts,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on account blind and choice",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_027,Verify the users is not able to tag to friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on add Tag",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_028,Verify the users is not able to tag to unfriends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on add Tag choose friend not a privte account",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_029,Verify the i am not able to tag to myself,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on add Tag choose me",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+Negative,Facebook_Addstory_Negative_030,Verify the users is not able to see people is nearly from your story location,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- click on icon add story
+5-click on see nearly people",add story ( text - photo -video -location- tag -like-comment),show error try again ,failed,FR 1 : Stories,None,Fac test
+GUI,Facebook_AddMessage_GUI_001,Verify the Alignment of fields on the Add Message screen,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Click ""login"" 
+3- Look at the fields and icons on the page",add Message ( text - photo -video -location- tag -audio),The fields and icons should be alligned in a good way,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_002,Verify the Color of the error messages must be in red,App is Installed and Opened  login with account,"1- Open the Facebook mobile application 
+2- Enter an in valid number or any invalid data
+3- Press Login
+4- Look at the error message color",add Message ( text - photo -video -location- tag -audio),The Color of the error messages must be in red,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_003,Verify text field values are displayed in masked format or not,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5- try to add text to Message",add Message ( text - photo -video -location- tag -audio),show field values in page,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_004,Verify Media ( Photo/Field) field values are displayed in page Media on chat  or not ,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5- try to add media to Message",add Message ( text - photo -video -location- tag -audio),media field show media or show error of media in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_005,Verify if user tag any people display in  format or not,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5- try to add Tag on Message",add Message ( text - photo -video -location- tag -audio),tag field show tag ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_006,Verify Media ( Photo/Field) field values uploaded from camera,App is Installed and Opened  login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5-click on icon camera
+6- try to add photo/video using camera",add Message ( text - photo -video -location- tag -audio),media field show media or show error of media in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_007,Verify Media ( Photo/Field) field values uploaded from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5-click on browse icon
+6- try to add photo/video from phone",add Message ( text - photo -video -location- tag -audio),media field show media or show error of media in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_008,Verify Message shared public ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose public",add Message ( text - photo -video -location- tag -audio),share field show message success or show error  in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_009,Verify Message shared Friends Except,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Friends Except",add Message ( text - photo -video -location- tag -audio),share field show message success or show error  in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_010,Verify Message forward to Friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Friends ",add Message ( text - photo -video -location- tag -audio),share field show message success or show error  in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_011,Verify Message forward to Friends of Friends,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Friends of Friends",add Message ( text - photo -video -location- tag -audio),share field show message success or show error  in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_012,Verify Message forward to private chat (Me),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Only Me",add Message ( text - photo -video -location- tag -audio),share field show message success or show error  in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_013,Verify Edit Message with one (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data
+3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Friends of Friends",add Message ( text - photo -video -location- tag -audio),share field show edit on page or show error in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_014,Verify Edit Message with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Friends of Friends",add Message ( text - photo -video -location- tag -audio),share field show edit on page or show error in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_015,Verify delete Message with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Friends of Friends",add Message ( text - photo -video -location- tag -audio),share field show edit on page or show error in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_016,Verify Edit Message with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Friends of Friends",add Message ( text - photo -video -location- tag -audio),share field show edit on page or show error in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_017,Verify Edit Message with multiple (photo/video),App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- Press on Add Message Icon
+5-click on Message audience
+6-choose Friends of Friends",add Message ( text - photo -video -location- tag -audio),share field show edit on page or show error in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_018,Verify view Message with multiple comments,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view Message
+5-click on comments
+",add Message ( text - photo -video -location- tag -audio),share field comments on page,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_019,Verify Edit Message react,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view Message
+5-click on comments
+6-click on spefic comment and edit",add Message ( text - photo -video -location- tag -audio),share field show edit on page or show error in red color ,success,FR 3 : Messaging,None,Fac test
+GUI,Facebook_AddMessage_GUI_020,Verify Delete Message react,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view Message
+5-click on spefic  Message and  Delete react",add Message ( text - photo -video -location- tag -audio),show message deleted,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_001,Verify the user is able to Add Message with a valid text,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+
+6-add text",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_002,Verify the user is able to Add Message with a valid image from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4-  view Message
+5-click on icon camera",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_003,Verify the user is able to Add Message with a valid image size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on addsto+E24:E35ry
+6-click on icon camera",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_004,Verify the user is able to Add Message with a valid image from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon broswer",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_005,Verify the user is able to Add Message with a valid image size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon broswer",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_006,Verify the user is able to Add Message with a valid Video from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon camera",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_007,Verify the user is able to Add Message with a valid Video size from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon camera",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_008,Verify the user is able to Add Message with a valid Video from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon browse",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_009,Verify the user is able to Add Message with a valid Video size from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon browse",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_010,Verify the user is able to Add Message with a valid Multiple Images from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon camera",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_011,Verify the user is able to Add Message with a valid Multiple videos from camera,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon camera",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_012,Verify the user is able to Add Message with a valid Multiple Images from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon browse",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_013,Verify the user is able to Add Message with a valid Multiple videos from phone,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon browse",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_014,Verify the user is able to Forward Message tp a valid friend ,App is Installed and Opened login with account,"1- Open the Facebook mobile application
+2- Enter an valid number or any valid data             3- Press Login
+4- view message
+5-click on icon location",add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_015,Verify the user is able to Add react to Message with a valid friend,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Add react success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_016,Verify the user is able to Add Message with a valid froward private,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_017,Verify the user is able to Add Message with a valid forward friends of friends,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_018,Verify the user is able to Add Message with a valid forward friends ,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_019,Verify the user is able to Add Message with a valid forward to groups,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_020,Verify the user is able to add to Message with a valid reacts,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Add react success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_021,Verify the user is able to forward Message with a valid forward to groups,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Positive,Facebook_AddMessage_Positive_022,Verify the user is able to= send messages to stranger and be in pending,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message Sent Success,success,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_001,Verify the user is able to Add Message with a Not valid text,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_002,Verify the user is able to Add Message with a Not valid image from camera,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_003,Verify the user is able to Add Message with a Not valid image size from camera,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_004,Verify the user is able to Add Message with a Not valid image from phone,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_005,Verify the user is able to Add Message with a Not valid image size from phone,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_006,Verify the user is able to Add Message with a Not valid Video from camera,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_007,Verify the user is able to Add Message with a Not valid Video size from camera,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_008,Verify the user is able to Add Message with a Not valid Video from phone,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_009,Verify the user is able to Add Message with a Not valid Video size from phone,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_010,Verify the user is able to Add Message with a Not valid Multiple Images from camera,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_011,Verify the user is able to Add Message with a Not valid Multiple videos from camera,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_012,Verify the user is able to Add Message with a Not valid Multiple Images from phone,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_013,Verify the user is able to Add Message with a Not valid Multiple videos from phone,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_014,Verify the user is able to Add Message with a Not valid location,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),location not sent   and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_015,Verify the user is able to Add Message with a Not valid status,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),status not sent  and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_016,Verify the user is able to Add Message with a Not valid share private,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_017,Verify the user is able to Add Message with a Not valid share friends of friends,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_018,Verify the user is able to Add Message with a Not valid share friends ,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_019,Verify the user is able to Add Message with a not  valid forward to groups,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_020,Verify the user is able to add to Message with a Not valid reacts,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_021,Verify the user is not able to forward Message with a valid forward to groups,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
+Negative,Facebook_AddMessage_Negative_022,Verify the user isnot able to send messages to stranger and be in pending,App is Installed and Opened login with account,,add Message ( text - photo -video -location- tag -audio),Message not Sent and show ERROR,Failed,FR 3 : Messaging,None,Fac test
